@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kZLf1pzUY5dvkKtIwGaYau2L1Xjom4+d+NAYb8/K5QzaqWCAlMj7dxvCz/gqLsRJCd9J/Y61ODjGsIcpScm72A==",
+  "success": true,
+  "projectFilePath": "D:\\WJLProjects\\WJLThoughs\\WJLThoughs.Video\\WJLThoughs.Video.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WJL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\WJL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

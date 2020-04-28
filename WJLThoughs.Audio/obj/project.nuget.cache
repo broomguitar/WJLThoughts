@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IokTNx+4jWufxr5Q0qPjz/esr+ZX9oIKIYntaYuOoxhxLt6E0waOZVcv4Fa5BzVE6X04+Dw4hi2RRVk1s3aGPQ==",
+  "success": true,
+  "projectFilePath": "D:\\WJLProjects\\WJLThoughs\\WJLThoughs.Audio\\WJLThoughs.Audio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WJL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\WJL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,4 @@
+D:\WJLProjects\WJLThoughs\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughs.Logger.deps.json
+D:\WJLProjects\WJLThoughs\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughs.Logger.dll
+D:\WJLProjects\WJLThoughs\WJLThoughs.Logger\obj\Debug\netstandard2.0\WJLThoughs.Logger.AssemblyInfoInputs.cache
+D:\WJLProjects\WJLThoughs\WJLThoughs.Logger\obj\Debug\netstandard2.0\WJLThoughs.Logger.AssemblyInfo.cs
