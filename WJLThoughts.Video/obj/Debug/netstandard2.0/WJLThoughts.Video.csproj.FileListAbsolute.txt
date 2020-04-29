@@ -1,0 +1,9 @@
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\bin\Debug\netstandard2.0\WJLThoughts.Video.deps.json
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\bin\Debug\netstandard2.0\WJLThoughts.Video.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\bin\Debug\netstandard2.0\WJLThoughts.Video.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.csprojAssemblyReference.cache
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.csproj.CoreCompileInputs.cache
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.AssemblyInfoInputs.cache
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.AssemblyInfo.cs
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Video\obj\Debug\netstandard2.0\WJLThoughts.Video.pdb
