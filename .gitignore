@@ -1,2 +1,10 @@
 /WJLThoughts.Bin
 /WJLThoughts/obj
+/WJLThoughts.Audio/obj
+/WJLThoughts.CustomControlLibrary/obj
+/WJLThoughts.Logger/obj
+/WJLThoughts.NetWork/obj
+/WJLThoughts.Updater/obj
+/WJLThoughts.UserControlLibrary/obj
+/WJLThoughts.Video/obj
+/WJLThoughts.Win32/obj
