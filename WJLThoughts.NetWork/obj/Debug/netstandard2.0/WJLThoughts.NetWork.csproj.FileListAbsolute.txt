@@ -22,3 +22,4 @@ D:\WJLProjects\WJLThoughts\WJLThoughts.NetWork\obj\Debug\netstandard2.0\WJLThoug
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.NetWork.deps.json
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.NetWork.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.NetWork.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.NetWork\obj\Debug\netstandard2.0\WJLThoughts.NetWork.csprojAssemblyReference.cache

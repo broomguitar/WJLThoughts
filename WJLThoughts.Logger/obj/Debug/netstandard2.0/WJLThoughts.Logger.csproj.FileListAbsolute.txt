@@ -16,12 +16,13 @@ D:\WJLProjects\WJLThoughs\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThought
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.Logger.deps.json
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.Logger.dll
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.Logger.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\log4net.config
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.deps.json
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.pdb
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.csproj.CoreCompileInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.AssemblyInfoInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.AssemblyInfo.cs
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.pdb
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.deps.json
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.dll
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Logger.pdb
 D:\WJLProjects\WJLThoughts\WJLThoughts.Logger\obj\Debug\netstandard2.0\WJLThoughts.Logger.csprojAssemblyReference.cache

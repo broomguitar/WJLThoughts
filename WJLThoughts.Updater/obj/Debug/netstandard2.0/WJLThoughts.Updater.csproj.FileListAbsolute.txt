@@ -27,3 +27,4 @@ D:\WJLProjects\WJLThoughts\WJLThoughts.Updater\obj\Debug\netstandard2.0\WJLThoug
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Updater.deps.json
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Updater.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Updater.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Updater\obj\Debug\netstandard2.0\WJLThoughts.Updater.csprojAssemblyReference.cache

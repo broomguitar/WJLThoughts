@@ -30,9 +30,11 @@ D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.deps.json
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.pdb
-D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.csprojAssemblyReference.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\UserControl1.baml
 D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.g.resources
 D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.csproj.CoreCompileInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.AssemblyInfoInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.AssemblyInfo.cs
+D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\Waiting\Loading.g.cs
+D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\Waiting\Loading.baml
+D:\WJLProjects\WJLThoughts\WJLThoughts.UserControlLibrary\obj\Debug\netcoreapp3.1\WJLThoughts.UserControlLibrary.csprojAssemblyReference.cache

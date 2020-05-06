@@ -6,3 +6,10 @@ D:\WJLProjects\WJLThoughts\WJLThoughts.Audio\obj\Debug\netstandard2.0\WJLThought
 D:\WJLProjects\WJLThoughts\WJLThoughts.Audio\obj\Debug\netstandard2.0\WJLThoughts.Audio.AssemblyInfo.cs
 D:\WJLProjects\WJLThoughts\WJLThoughts.Audio\obj\Debug\netstandard2.0\WJLThoughts.Audio.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Audio\obj\Debug\netstandard2.0\WJLThoughts.Audio.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\MediaPlayer\netstandard2.0\WJLThoughts.Audio.deps.json
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\MediaPlayer\netstandard2.0\WJLThoughts.Audio.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\MediaPlayer\netstandard2.0\WJLThoughts.Audio.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Audio.deps.json
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Audio.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.Audio.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Audio\obj\Debug\netstandard2.0\WJLThoughts.Audio.csprojAssemblyReference.cache

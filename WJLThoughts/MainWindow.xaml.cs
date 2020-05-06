@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WJLThoughs
+namespace WJLThoughts
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -28,6 +28,11 @@ namespace WJLThoughs
         private void btn_test_Click(object sender, RoutedEventArgs e)
         {
             WinApi.BrowseDirectory.Instance.BroweFolder(out string ret);
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+           App.SplashScreenPage?.Dispatcher.Invoke((Action)(() => App.SplashScreenPage?.Close()));//在SplashScreenPage的线程上关闭SplashWindow
+            this.Activate();//激活主窗体
         }
     }
 }

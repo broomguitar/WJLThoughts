@@ -15,11 +15,11 @@ D:\WJLProjects\WJLThoughs\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.deps.json
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.dll
 D:\WJLProjects\WJLThoughts\WJLThoughs.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.pdb
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.deps.json
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.dll
+D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.pdb
 D:\WJLProjects\WJLThoughts\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts.WinApi.csproj.CoreCompileInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts.WinApi.AssemblyInfoInputs.cache
 D:\WJLProjects\WJLThoughts\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts.WinApi.AssemblyInfo.cs
 D:\WJLProjects\WJLThoughts\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts.WinApi.dll
 D:\WJLProjects\WJLThoughts\WJLThoughts.Win32\obj\Debug\netstandard2.0\WJLThoughts.WinApi.pdb
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.deps.json
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.dll
-D:\WJLProjects\WJLThoughts\WJLThoughts.Bin\Debug\netstandard2.0\WJLThoughts.WinApi.pdb

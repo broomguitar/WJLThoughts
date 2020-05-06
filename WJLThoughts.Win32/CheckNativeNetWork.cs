@@ -4,7 +4,7 @@ using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace WJLThoughs.WinApi
+namespace WJLThoughts.WinApi
 {
     public class CheckNativeNetWork
     {
