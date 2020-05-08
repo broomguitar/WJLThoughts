@@ -23,6 +23,8 @@ namespace WJLThoughts
         public MainWindow()
         {
             InitializeComponent();
+            Task.Delay(3000).Wait();
+
         }
 
         private void btn_test_Click(object sender, RoutedEventArgs e)
@@ -33,6 +35,11 @@ namespace WJLThoughts
         {
            App.SplashScreenPage?.Dispatcher.Invoke((Action)(() => App.SplashScreenPage?.Close()));//在SplashScreenPage的线程上关闭SplashWindow
             this.Activate();//激活主窗体
+        }
+
+        private void TextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
