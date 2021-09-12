@@ -1,0 +1,10 @@
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\bin\Debug\netstandard2.0\WJLThoughts.Common.deps.json
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\bin\Debug\netstandard2.0\WJLThoughts.Common.dll
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\bin\Debug\netstandard2.0\WJLThoughts.Common.pdb
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.csproj.AssemblyReference.cache
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.AssemblyInfoInputs.cache
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.AssemblyInfo.cs
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.csproj.CoreCompileInputs.cache
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.dll
+D:\MyProjects\WJLThoughts\WJLThoughts\WJLThoughts.Common\obj\Debug\netstandard2.0\WJLThoughts.Common.pdb

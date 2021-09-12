@@ -96,7 +96,7 @@ namespace WJLThoughts.WinApi
             }
         }
     }
-    public class Win32BrowseDirectory
+     class Win32BrowseDirectory
     {
         // C# representation of the IMalloc interface.
         [InterfaceType(ComInterfaceType.InterfaceIsIUnknown),
@@ -205,7 +205,7 @@ namespace WJLThoughts.WinApi
         }
     }
     //-------------------------------------------------------------------------
-    public class Win32BrowseDirectoryInstance
+     class Win32BrowseDirectoryInstance
     {
         //-------------------------------------------------------------------------
         private HandleRef unityWindowHandle;
@@ -222,7 +222,6 @@ namespace WJLThoughts.WinApi
         private bool __EnumWindowsCallBack(IntPtr hWnd, IntPtr lParam)
         {
             int procid;
-
             int returnVal =
              Win32BrowseDirectory.User32.GetWindowThreadProcessId(new HandleRef(this, hWnd), out procid);
 
@@ -238,7 +237,6 @@ namespace WJLThoughts.WinApi
                 bUnityHandleSet = true;
                 return false;
             }
-
             return true;
         }
         //-------------------------------------------------------------------------

@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
@@ -15,6 +15,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\WJLThoughts.Bin\Release\</OutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MainWindow.xaml.cs~RF49ad982d.TMP" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\WJLThoughts.Logger\WJLThoughts.Logger.csproj" />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WJLThoughs.NetWork
+namespace WJLThoughts.BLL
 {
     public class Class1
     {
