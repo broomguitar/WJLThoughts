@@ -1,0 +1,10 @@
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\bin\Debug\netstandard2.0\WJLThoughts.BLL.deps.json
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\bin\Debug\netstandard2.0\WJLThoughts.BLL.dll
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\bin\Debug\netstandard2.0\WJLThoughts.BLL.pdb
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.AssemblyInfoInputs.cache
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.AssemblyInfo.cs
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.csproj.CoreCompileInputs.cache
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.dll
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.pdb
+D:\Projects\WJL\WJLThoughts\WJLThoughts.BLL\obj\Debug\netstandard2.0\WJLThoughts.BLL.csproj.AssemblyReference.cache

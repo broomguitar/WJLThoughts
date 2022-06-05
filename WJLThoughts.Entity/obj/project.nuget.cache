@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "w6ytzd8r1oAZH8/+/DAoouT6qk7I2Grj45bkci3ZUaD8BzEKbZnUwWMTzPpKbFGSQ9NOyRFhYCRfFncVLd3whg==",
+  "dgSpecHash": "oK+e/djevZH0TOU7lwMfKNpjyUPBaP2RWzBn5bi98dguRvr4O2GA7C8ATOSEgCxfRKfEIWUsM/2NDxIek8G3jg==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\WJLThoughts\\WJLThoughts\\WJLThoughts.Entity\\WJLThoughts.Entity.csproj",
+  "projectFilePath": "D:\\Projects\\WJL\\WJLThoughts\\WJLThoughts.Entity\\WJLThoughts.Entity.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\WJL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\WJL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

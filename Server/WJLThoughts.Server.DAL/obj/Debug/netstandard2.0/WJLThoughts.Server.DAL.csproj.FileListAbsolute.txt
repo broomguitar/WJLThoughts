@@ -1,0 +1,10 @@
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\bin\Debug\netstandard2.0\WJLThoughts.Server.DAL.deps.json
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\bin\Debug\netstandard2.0\WJLThoughts.Server.DAL.dll
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\bin\Debug\netstandard2.0\WJLThoughts.Server.DAL.pdb
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.AssemblyInfoInputs.cache
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.AssemblyInfo.cs
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.dll
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.pdb
+D:\Projects\WJL\WJLThoughts\Server\WJLThoughts.Server.DAL\obj\Debug\netstandard2.0\WJLThoughts.Server.DAL.csproj.AssemblyReference.cache

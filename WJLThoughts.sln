@@ -5,12 +5,6 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts", "WJLThoughts\WJLThoughts.csproj", "{83F00633-8143-453A-A574-DB1B12D3F9A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.WinApi", "WJLThoughts.Win32\WJLThoughts.WinApi.csproj", "{B07E10F3-5D2E-4730-9FD8-D9E91CEEDCB4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.CustomControlLibrary", "WJLThoughts.CustomControlLibrary\WJLThoughts.CustomControlLibrary.csproj", "{148F3943-E97C-41DD-9E31-572CBEED907A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.UserControlLibrary", "WJLThoughts.UserControlLibrary\WJLThoughts.UserControlLibrary.csproj", "{1FED8C43-F373-47DB-8CC4-358B5D661D0C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WJLThoughts.MediaPlayer", "WJLThoughts.MediaPlayer", "{FBDCB7B2-94DA-4708-A4C8-1A7B1A817B16}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Logger", "WJLThoughts.Logger\WJLThoughts.Logger.csproj", "{85055E4E-2F65-420E-8B86-1DBE4DDF88CA}"
@@ -23,19 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Audio", "WJLTho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Video", "WJLThoughts.Video\WJLThoughts.Video.csproj", "{9F215511-CBBE-46A1-8B3F-774F172F7887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Common", "WJLThoughts.Common\WJLThoughts.Common.csproj", "{61D9FEDC-242F-4AC9-8F8B-19765FFDC974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Common", "WJLThoughts.Common\WJLThoughts.Common.csproj", "{61D9FEDC-242F-4AC9-8F8B-19765FFDC974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Entity", "WJLThoughts.Entity\WJLThoughts.Entity.csproj", "{223FBE78-FCE3-4D87-A548-FDC2EABD7685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Entity", "WJLThoughts.Entity\WJLThoughts.Entity.csproj", "{223FBE78-FCE3-4D87-A548-FDC2EABD7685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.BLL", "WJLThoughts.BLL\WJLThoughts.BLL.csproj", "{9800EEB5-A97F-4E9C-873F-C7079B2525AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.BLL", "WJLThoughts.BLL\WJLThoughts.BLL.csproj", "{9800EEB5-A97F-4E9C-873F-C7079B2525AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.DAL", "WJLThoughts.DAL\WJLThoughts.DAL.csproj", "{93A8CBBB-6FAA-4369-B2A2-076EB1DC896F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.DAL", "WJLThoughts.DAL\WJLThoughts.DAL.csproj", "{93A8CBBB-6FAA-4369-B2A2-076EB1DC896F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{BA9D2833-E331-43DB-8587-CD45F835264E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Server.DAL", "Server\WJLThoughts.Server.DAL\WJLThoughts.Server.DAL.csproj", "{63B1CC61-C6F6-4F27-983E-669C30CD1492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Server.DAL", "Server\WJLThoughts.Server.DAL\WJLThoughts.Server.DAL.csproj", "{63B1CC61-C6F6-4F27-983E-669C30CD1492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Server.Start", "Server\WJLThoughts.Server.Start\WJLThoughts.Server.Start.csproj", "{7B8E4464-D9CD-41A3-BC87-D7611FDC62B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Server.Start", "Server\WJLThoughts.Server.Start\WJLThoughts.Server.Start.csproj", "{7B8E4464-D9CD-41A3-BC87-D7611FDC62B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Themes", "WJLThoughts.Themes\WJLThoughts.Themes.csproj", "{BE46D0AE-95C5-4A3A-9203-C5824BD63A10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,18 +43,6 @@ Global
 		{83F00633-8143-453A-A574-DB1B12D3F9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F00633-8143-453A-A574-DB1B12D3F9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F00633-8143-453A-A574-DB1B12D3F9A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B07E10F3-5D2E-4730-9FD8-D9E91CEEDCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B07E10F3-5D2E-4730-9FD8-D9E91CEEDCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B07E10F3-5D2E-4730-9FD8-D9E91CEEDCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B07E10F3-5D2E-4730-9FD8-D9E91CEEDCB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{148F3943-E97C-41DD-9E31-572CBEED907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{148F3943-E97C-41DD-9E31-572CBEED907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{148F3943-E97C-41DD-9E31-572CBEED907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{148F3943-E97C-41DD-9E31-572CBEED907A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1FED8C43-F373-47DB-8CC4-358B5D661D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FED8C43-F373-47DB-8CC4-358B5D661D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FED8C43-F373-47DB-8CC4-358B5D661D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FED8C43-F373-47DB-8CC4-358B5D661D0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85055E4E-2F65-420E-8B86-1DBE4DDF88CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85055E4E-2F65-420E-8B86-1DBE4DDF88CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85055E4E-2F65-420E-8B86-1DBE4DDF88CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -103,6 +87,10 @@ Global
 		{7B8E4464-D9CD-41A3-BC87-D7611FDC62B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8E4464-D9CD-41A3-BC87-D7611FDC62B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8E4464-D9CD-41A3-BC87-D7611FDC62B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE46D0AE-95C5-4A3A-9203-C5824BD63A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE46D0AE-95C5-4A3A-9203-C5824BD63A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE46D0AE-95C5-4A3A-9203-C5824BD63A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE46D0AE-95C5-4A3A-9203-C5824BD63A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

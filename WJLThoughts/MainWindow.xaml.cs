@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WJLThoughts.Common.WinAPis;
 
 namespace WJLThoughts
 {
@@ -33,7 +34,7 @@ namespace WJLThoughts
         TaskTest TT = new TaskTest();
         private void btn_test_Click(object sender, RoutedEventArgs e)
         {
-            WinApi.BrowseDirectory.Instance.BroweFolder(out string ret);
+          BrowseDirectory.Instance.BroweFolder(out string ret);
             //TT.Test();
         }
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)

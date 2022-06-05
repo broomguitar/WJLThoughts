@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.csproj" />
     <ProjectReference Include="..\WJLThoughts.Logger\WJLThoughts.Logger.csproj" />
-    <ProjectReference Include="..\WJLThoughts.Win32\WJLThoughts.WinApi.csproj" />
   </ItemGroup>
 
 </Project>

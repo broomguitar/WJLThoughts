@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AV537UXAdVp5hDVhuHuN/Quze71NcJwD09ITLJGjLAptssPSCbOLA6uV+Arwv7rm33Aln3aCOwXKn/MjvBIxPw==",
+  "dgSpecHash": "MPx+T5eSimaYWctXUBlHxJr0R0Zz2RoSsaQZnAIG8kecY54jd13SJpPo1xYCKqf/fHLeqkXqpCJB0I4iRky+pA==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\WJLThoughts\\WJLThoughts\\Server\\WJLThoughts.Server.Start\\WJLThoughts.Server.Start.csproj",
+  "projectFilePath": "D:\\Projects\\WJL\\WJLThoughts\\Server\\WJLThoughts.Server.Start\\WJLThoughts.Server.Start.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
