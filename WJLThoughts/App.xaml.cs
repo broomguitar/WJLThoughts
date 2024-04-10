@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using WJLThoughts.Common.Core.Logger;
+using WJLThoughts.Common.Core.LogUtils;
 
 namespace WJLThoughts
 {
@@ -52,7 +52,7 @@ namespace WJLThoughts
             e.Handled = true;
             try
             {
-                LogHelper.Instance.Error(str, error);
+                Logger.Instance.Error(str, error);
             }
             catch { }
         }
@@ -71,7 +71,7 @@ namespace WJLThoughts
             }
             try
             {
-               LogHelper.Instance.Error(str);
+                Logger.Instance.Error(str);
             }
             catch { }
         }

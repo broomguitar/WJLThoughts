@@ -27,6 +27,21 @@ namespace WJLThoughts.Common.Core.Auxs
                 return text.Remove(length) + filler;
             }
         }
+        /// <summary>
+        /// 去除字符串中中文
+        /// </summary>
+        /// <param name="src"></param>
+        /// <returns></returns>
+        public static string RemoveChineseCharacter(this string src)
+        {
+            if (string.IsNullOrEmpty(src))
+            {
+                return string.Empty;
+            }
+            System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"[\u4e00-\u9fa5]"
+            );
+            return regex.Replace(src, string.Empty);
+        }
         #endregion
 
         #region Timestamp <-> Datetime

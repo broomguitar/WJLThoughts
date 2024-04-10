@@ -8,13 +8,13 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace WJLThoughts.Common.Core.Logger
+namespace WJLThoughts.Common.Core.LogUtils
 {
-    public class LogHelper
+    public class Logger
     {
         private static readonly object _lockObj = new object();
-        private static LogHelper _instance;
-        public static LogHelper Instance
+        private static Logger _instance;
+        public static Logger Instance
         {
             get
             {
@@ -24,7 +24,7 @@ namespace WJLThoughts.Common.Core.Logger
                     {
                         if (_instance == null)
                         {
-                            _instance = new LogHelper();
+                            _instance = new Logger();
                         }
                     }
                 }
@@ -39,7 +39,7 @@ namespace WJLThoughts.Common.Core.Logger
             XmlConfigurator.Configure(repository, new FileInfo(configFile));
             _log = LogManager.GetLogger(repositoryName, System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         }
-        private LogHelper()
+        private Logger()
         {
             Config();
         }
@@ -142,7 +142,7 @@ namespace WJLThoughts.Common.Core.Logger
         /// </summary>
         /// <param name="msg"></param>
         /// <param name="exception"></param>
-        public void Warn(object msg, Exception exception = null, [CallerFilePath] string callerPath = "", [CallerMemberName] string callerFunc = "")
+        public void Warn(object msg, Exception exception = null)
         {
             if (!_log.IsWarnEnabled) return;
             if (exception == null)

@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WJLThoughts.Common.Core.SocketUtils
+namespace WJLThoughts.Common.Net.SocketUtils
 {
    public class SocketServer
     {

@@ -22,5 +22,14 @@ namespace WJLThoughts.Common.Core.FileUtils
             else
                 return path?.Replace('\\', '/').Trim();
         }
+        /// <summary>
+        /// 统一化文件夹路径
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        public static string GetDirectoryName(string filePath)
+        {
+            return NormalizePath(System.IO.Path.GetDirectoryName(filePath));
+        }
     }
 }
