@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "oK+e/djevZH0TOU7lwMfKNpjyUPBaP2RWzBn5bi98dguRvr4O2GA7C8ATOSEgCxfRKfEIWUsM/2NDxIek8G3jg==",
+  "dgSpecHash": "JXt8QLJB4vHdO+R7DE+IJUMqvCXH0cko/kVW14P/H/iWtGCWQawRoZSOJEXLPx3tSjeIa9g0EK0RaCFoX393tA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\WJL\\WJLThoughts\\WJLThoughts.Entity\\WJLThoughts.Entity.csproj",
+  "projectFilePath": "E:\\MyCode\\C#\\MyProject\\WJLThoughts.Entity\\WJLThoughts.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WJL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\WJL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://82.156.98.221:8089/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

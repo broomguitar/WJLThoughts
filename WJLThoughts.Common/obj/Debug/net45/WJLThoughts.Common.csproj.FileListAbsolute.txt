@@ -1,5 +1,0 @@
-D:\Projects\WJL\WJLThoughts\WJLThoughts.Common\obj\Debug\net45\WJLThoughts.Common.csproj.AssemblyReference.cache
-D:\Projects\WJL\WJLThoughts\WJLThoughts.Common\obj\Debug\net45\WJLThoughts.Common.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\WJL\WJLThoughts\WJLThoughts.Common\obj\Debug\net45\WJLThoughts.Common.AssemblyInfoInputs.cache
-D:\Projects\WJL\WJLThoughts\WJLThoughts.Common\obj\Debug\net45\WJLThoughts.Common.AssemblyInfo.cs
-D:\Projects\WJL\WJLThoughts\WJLThoughts.Common\obj\Debug\net45\WJLThoughts.Common.csproj.CoreCompileInputs.cache

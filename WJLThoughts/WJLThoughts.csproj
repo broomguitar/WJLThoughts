@@ -2,27 +2,17 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+	  <TargetFrameworks>net48;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <Optimize>false</Optimize>
-    <OutputPath>..\WJLThoughts.Bin\Debug\</OutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\WJLThoughts.Bin\Release\</OutputPath>
-  </PropertyGroup>
-
   <ItemGroup>
     <None Remove="MainWindow.xaml.cs~RF49ad982d.TMP" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.csproj" />
-    <ProjectReference Include="..\WJLThoughts.Logger\WJLThoughts.Logger.csproj" />
+    <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Core\WJLThoughts.Common.Core.csproj" />
+    <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Win\WJLThoughts.Common.Win.csproj" />
+    <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.WPF\WJLThoughts.Common.WPF.csproj" />
   </ItemGroup>
 
 </Project>

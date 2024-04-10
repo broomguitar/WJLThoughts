@@ -193,7 +193,7 @@ namespace WJLThoughts
     }
     class LoopWorker
     {
-        public void Start([NotNull] Func<bool> condition, Action worker)
+     public void Start(Func<bool> condition, Action worker)
         {
             Task.Factory.StartNew(
                 () =>
