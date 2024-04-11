@@ -49,7 +49,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CV", "CV", "{A7283C1A-DE12-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLP", "NLP", "{62CEA2CC-438B-4E48-A2A4-29102A7AA8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Algorithms.CV.YOLO", "WJLThoughts.Algorithms\CV\WJLThoughts.Algorithms.CV.YOLO\WJLThoughts.Algorithms.CV.YOLO.csproj", "{55AC36E5-9F97-4772-8447-85685B8DAD91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Algorithms.CV.YOLO", "WJLThoughts.Algorithms\CV\WJLThoughts.Algorithms.CV.YOLO\WJLThoughts.Algorithms.CV.YOLO.csproj", "{55AC36E5-9F97-4772-8447-85685B8DAD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Algorithms.NLP.ChatGpt-4.0", "WJLThoughts.Algorithms\NLP\WJLThoughts.Algorithms.NLP.ChatGpt-4.0\WJLThoughts.Algorithms.NLP.ChatGpt-4.0.csproj", "{829208B8-FBB7-4A29-99E3-7E02148C30BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829208B8-FBB7-4A29-99E3-7E02148C30BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829208B8-FBB7-4A29-99E3-7E02148C30BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829208B8-FBB7-4A29-99E3-7E02148C30BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829208B8-FBB7-4A29-99E3-7E02148C30BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{A7283C1A-DE12-41E1-A780-43232E76CAF6} = {DCF93B84-1FA8-4ED7-9E9E-4B22BACEBFF5}
 		{62CEA2CC-438B-4E48-A2A4-29102A7AA8FD} = {DCF93B84-1FA8-4ED7-9E9E-4B22BACEBFF5}
 		{55AC36E5-9F97-4772-8447-85685B8DAD91} = {A7283C1A-DE12-41E1-A780-43232E76CAF6}
+		{829208B8-FBB7-4A29-99E3-7E02148C30BC} = {62CEA2CC-438B-4E48-A2A4-29102A7AA8FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71FB6F05-6151-47F6-9CCD-7687AFAAD5F0}
