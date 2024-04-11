@@ -2,13 +2,12 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-	  <TargetFrameworks>net48;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
+	  <TargetFrameworks>net48;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <LangVersion>10.0</LangVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="MainWindow.xaml.cs~RF49ad982d.TMP" />
-  </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Core\WJLThoughts.Common.Core.csproj" />
     <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Win\WJLThoughts.Common.Win.csproj" />

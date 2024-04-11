@@ -1,32 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>net48;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
-	  <UseWPF>true</UseWPF>
-	  <!--<ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>-->
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net48;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="8.0.4" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="8.0.4" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Basler.Pylon">
-      <HintPath>Libs\Basler\Basler.Pylon.dll</HintPath>
-    </Reference>
-    <Reference Include="DALSA.SaperaLT.SapClassBasic">
-      <HintPath>Libs\Dalsa\DALSA.SaperaLT.SapClassBasic.dll</HintPath>
-    </Reference>
-    <Reference Include="IKapBoardClassLibrary">
-      <HintPath>Libs\IK\IKapBoardClassLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="IKapC.NET">
-      <HintPath>Libs\IK\IKapC.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="MvCameraControl.Net">
-      <HintPath>Libs\HIK\MvCameraControl.Net.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="Basler.Pylon">
+			<HintPath>Libs\Basler\Basler.Pylon.dll</HintPath>
+		</Reference>
+		<Reference Include="DALSA.SaperaLT.SapClassBasic">
+			<HintPath>Libs\Dalsa\DALSA.SaperaLT.SapClassBasic.dll</HintPath>
+		</Reference>
+		<Reference Include="IKapBoardClassLibrary">
+			<HintPath>Libs\IK\IKapBoardClassLibrary.dll</HintPath>
+		</Reference>
+		<Reference Include="IKapC.NET">
+			<HintPath>Libs\IK\IKapC.NET.dll</HintPath>
+		</Reference>
+		<Reference Include="MvCameraControl.Net">
+			<HintPath>Libs\HIK\MvCameraControl.Net.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 
 </Project>
