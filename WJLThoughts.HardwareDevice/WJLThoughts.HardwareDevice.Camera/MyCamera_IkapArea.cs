@@ -2,12 +2,12 @@
 
 namespace WJLThoughts.HardwareDevice.Camera
 {
-    public class HYCamera_IkapArea_Net : AbstractMyCamera_IKap_Net
+    public class MyCamera_IkapArea_Net : AbstractMyCamera_IKap_Net
     {
-        public HYCamera_IkapArea_Net(uint cameraIndex) : base(cameraIndex)
+        public MyCamera_IkapArea_Net(uint cameraIndex) : base(cameraIndex)
         {
         }
-        public HYCamera_IkapArea_Net(string serialNum) : base(serialNum)
+        public MyCamera_IkapArea_Net(string serialNum) : base(serialNum)
         {
 
         }

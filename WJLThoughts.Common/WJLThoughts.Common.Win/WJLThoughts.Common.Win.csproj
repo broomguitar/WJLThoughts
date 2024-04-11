@@ -29,4 +29,8 @@
     <PackageReference Include="System.Management" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WJLThoughts.Common.Core\WJLThoughts.Common.Core.csproj" />
+  </ItemGroup>
+
 </Project>

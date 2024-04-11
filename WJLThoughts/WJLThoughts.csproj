@@ -13,6 +13,7 @@
     <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Core\WJLThoughts.Common.Core.csproj" />
     <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.Win\WJLThoughts.Common.Win.csproj" />
     <ProjectReference Include="..\WJLThoughts.Common\WJLThoughts.Common.WPF\WJLThoughts.Common.WPF.csproj" />
+    <ProjectReference Include="..\WJLThoughts.HardwareDevice\WJLThoughts.HardwareDevice.Camera\WJLThoughts.HardwareDevice.Camera.csproj" />
   </ItemGroup>
 
 </Project>

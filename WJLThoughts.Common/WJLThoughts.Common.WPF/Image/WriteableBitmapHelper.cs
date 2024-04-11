@@ -12,6 +12,7 @@ namespace WJLThoughts.Common.WPF.Image
     public class WriteableBitmapHelper
     {
         public WriteableBitmap WriteableBitmap { get; private set; }
+
         private void updateWritableBitmapData(byte[] byt, int Width, int Height, System.Drawing.Imaging.PixelFormat pixelFormat)
         {
             Action DoAction = delegate ()
@@ -167,9 +168,13 @@ namespace WJLThoughts.Common.WPF.Image
         /// <param name="pixelFormat"></param>
         public void InitialWriteableBitmap(int Width, int Height, System.Drawing.Imaging.PixelFormat pixelFormat)
         {
-            WriteableBitmap = new WriteableBitmap(Width, Height,
-                            96, 96, ImageHelper.ConvertBmpPixelFormat(pixelFormat),
-                          BitmapPalettes.Gray256);
+            Action action = new Action(() =>
+            {
+                WriteableBitmap = new WriteableBitmap(Width, Height,
+                             96, 96, ImageHelper.ConvertBmpPixelFormat(pixelFormat),
+                           BitmapPalettes.Gray256);
+            });
+            UIThreadInvoke(action);
         }
         /// <summary>
         /// 回调函数，获取图片

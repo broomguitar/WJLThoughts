@@ -700,8 +700,26 @@ namespace WJLThoughts.HardwareDevice.Camera
             List<CameraItemInfo> retList=new List<CameraItemInfo>();
             // ch:创建设备列表 en:Create Device List
             GC.Collect();
+            uint connType = MyCamera.MV_GIGE_DEVICE;
+            switch (connectType)
+            {
+                case CameraConnectTypes.GigE:
+                    connType = MyCamera.MV_GIGE_DEVICE;
+                    break;
+                case CameraConnectTypes.Usb:
+                    connType = MyCamera.MV_USB_DEVICE;
+                    break;
+                case CameraConnectTypes.CameraLink:
+                    connType = MyCamera.MV_CAMERALINK_DEVICE;
+                    break;
+                case CameraConnectTypes.IEEE1394:
+                    connType = MyCamera.MV_1394_DEVICE;
+                    break;
+                default:
+                    break;
+            }
             MyCamera.MV_CC_DEVICE_INFO_LIST deviceList= new MyCamera.MV_CC_DEVICE_INFO_LIST();
-            nRet = MyCamera.MV_CC_EnumDevices_NET((uint)connectType, ref deviceList);
+            nRet = MyCamera.MV_CC_EnumDevices_NET(connType, ref deviceList);
             if (0 != nRet)
             {
                 return retList;

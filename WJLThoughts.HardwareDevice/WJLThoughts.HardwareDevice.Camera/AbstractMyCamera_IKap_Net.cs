@@ -12,7 +12,7 @@ using WJLThoughts.HardwareDevice.Camera.Utils;
 namespace WJLThoughts.HardwareDevice.Camera
 {
     #region Pre
-    //  public abstract class AbstractHYCamera_IKap_Net : IHYCamera
+    //  public abstract class AbstractMyCamera_IKap_Net : IMyCamera
     //  {
     //      #region members
     //      // 相机设备句柄。
@@ -92,7 +92,7 @@ namespace WJLThoughts.HardwareDevice.Camera
     //      #endregion
     //      public uint CameraIndex { get; protected set; } = uint.MaxValue;
     //      public string CameraName { get; protected set; }
-    //      public AbstractHYCamera_IKap_Net(uint cameraIndex)
+    //      public AbstractMyCamera_IKap_Net(uint cameraIndex)
     //      {
     //          CameraIndex = cameraIndex;
     //          try
@@ -107,7 +107,7 @@ namespace WJLThoughts.HardwareDevice.Camera
     //          }
 
     //      }
-    //      public AbstractHYCamera_IKap_Net(string serialNum)
+    //      public AbstractMyCamera_IKap_Net(string serialNum)
     //      {
     //          try
     //          {
@@ -755,7 +755,7 @@ namespace WJLThoughts.HardwareDevice.Camera
     //      public event EventHandler<Bitmap> NewImageEvent;
 
     //      object lockObj = new object();
-    //      event EventHandler<Bitmap> IHYCamera.NewImageEvent
+    //      event EventHandler<Bitmap> IMyCamera.NewImageEvent
     //      {
     //          add
     //          {
@@ -1965,7 +1965,6 @@ namespace WJLThoughts.HardwareDevice.Camera
             }
         }
         event EventHandler<Bitmap> IKapNewImageEvent;
-        public event EventHandler<Bitmap> NewImageEvent;
 
         object lockObj = new object();
         event EventHandler<Bitmap> IMyCamera.NewImageEvent

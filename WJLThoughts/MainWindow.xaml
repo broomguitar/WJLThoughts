@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <Button Content="Test" Name="btn_test" Click="btn_test_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image x:Name="img"/>
         <DataGrid Margin="0 100" HorizontalAlignment="Right" Name="log">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="时间" Binding="{Binding Time}"/>

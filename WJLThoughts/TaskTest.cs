@@ -166,18 +166,15 @@ namespace WJLThoughts
         }
         public void Test()
         {
-            loopWorker1 = new LoopWorker();
-            loopWorker2 = new LoopWorker();
-            loopWorker3 = new LoopWorker();
-            loopWorker4 = new LoopWorker();
-            loopWorker5 = new LoopWorker();
-            loopWorker6 = new LoopWorker();
-            loopWorker1.Start(() => c1, p1);
-            loopWorker1.Start(() => c2, p2);
-            loopWorker1.Start(() => c3, p3);
-            loopWorker1.Start(() => c4, p4);
-            loopWorker1.Start(() => c5, p5);
-            loopWorker1.Start(() => c6, p6);
+            for (int i = 0; i < 100; i++)
+            {
+                LoopWorker.Start(()=>c1, p1);
+                LoopWorker.Start(() => c2, p2);
+                LoopWorker.Start(() => c3, p3);
+                LoopWorker.Start(() => c4, p4);
+                LoopWorker.Start(() => c5, p5);
+                LoopWorker.Start(() => c6, p6);
+            }
         }
 
 
@@ -191,9 +188,9 @@ namespace WJLThoughts
         public DateTime Time => DateTime.Now;
         public string Msg { get; set; }
     }
-    class LoopWorker
+   public class LoopWorker
     {
-     public void Start(Func<bool> condition, Action worker)
+     public static void Start(Func<bool> condition, Action worker)
         {
             Task.Factory.StartNew(
                 () =>

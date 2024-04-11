@@ -5,30 +5,11 @@ using System.Text;
 
 namespace WJLThoughts.Common.Win
 {
-    public class BrowseDirectory
+    public class OpenDirectoryDialog
     {
-        private volatile static BrowseDirectory _instance = null; private static readonly object padlock = new object();
-        private BrowseDirectory() { }
-        public static BrowseDirectory Instance
+        public string DirectoryPath { get;private set; }
+        public bool Open()
         {
-            get
-            {
-                if (_instance == null)
-                {
-                    lock (padlock)
-                    {
-                        if (_instance == null)
-                        {
-                            _instance = new BrowseDirectory();
-                        }
-                    }
-                }
-                return _instance;
-            }
-        }
-        public void BroweFolder(out string directoryPath)
-        {
-            directoryPath = "null";
             try
             {
                 IntPtr pidlRet = IntPtr.Zero;
@@ -55,12 +36,12 @@ namespace WJLThoughts.Common.Win
                 if (pidlRet == IntPtr.Zero)
                 {
                     // User clicked Cancel.
-                    return;
+                    return false;
                 }
                 byte[] pp = new byte[2048];
                 if (0 == Win32BrowseDirectory.Shell32.SHGetPathFromIDList(pidlRet, pp))
                 {
-                    return;
+                    return true;
                 }
 
                 int nSize = 0;
@@ -79,7 +60,7 @@ namespace WJLThoughts.Common.Win
 
                 if (0 == nSize)
                 {
-                    return;
+                    return true;
                 }
 
                 byte[] pReal = new byte[nSize];
@@ -88,12 +69,13 @@ namespace WJLThoughts.Common.Win
                 byte[] utf8Bytes = Encoding.Convert(Encoding.GetEncoding("Gb2312"), utf8, pReal);
                 string utf8String = utf8.GetString(utf8Bytes);
                 utf8String = utf8String.Replace("\0", "");
-                directoryPath = utf8String.Replace("\\", "/") + "/";
-
+                DirectoryPath= utf8String.Replace("\\", "/") + "/";
+                return true;
             }
             catch (Exception e)
             {
-                Console.WriteLine("获取文件夹目录出错:" + e.Message);
+               Core.LogUtils.Logger.Instance.Error("获取文件夹目录出错:" + e.Message);
+                return false;
             }
         }
     }

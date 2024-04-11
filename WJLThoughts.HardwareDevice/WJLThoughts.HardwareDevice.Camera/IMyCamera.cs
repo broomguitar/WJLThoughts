@@ -147,7 +147,7 @@ namespace WJLThoughts.HardwareDevice.Camera
         /// <summary>
         /// 新图片
         /// </summary>
-        event EventHandler<Bitmap> NewImageEvent;
+       event EventHandler<Bitmap> NewImageEvent;
 
     }
     /// <summary>

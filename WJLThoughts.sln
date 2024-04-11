@@ -37,11 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Server.Start", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WJLThoughts.HardwareDevice", "WJLThoughts.HardwareDevice", "{03FB7F3C-81FA-4E16-BC3D-8F4A881D0C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.HardwareDevice.Camera", "WJLThoughts.HardwareDevice\WJLThoughts.HardwareDevice.Camera\WJLThoughts.HardwareDevice.Camera.csproj", "{CDE61D8A-2126-4F21-9A37-A267661B8010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.HardwareDevice.Camera", "WJLThoughts.HardwareDevice\WJLThoughts.HardwareDevice.Camera\WJLThoughts.HardwareDevice.Camera.csproj", "{CDE61D8A-2126-4F21-9A37-A267661B8010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.HardwareDevice.PLC", "WJLThoughts.HardwareDevice\WJLThoughts.HardwareDevice.PLC\WJLThoughts.HardwareDevice.PLC.csproj", "{0958D0ED-49AA-4623-9A4C-95F5C25AEE10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.HardwareDevice.PLC", "WJLThoughts.HardwareDevice\WJLThoughts.HardwareDevice.PLC\WJLThoughts.HardwareDevice.PLC.csproj", "{0958D0ED-49AA-4623-9A4C-95F5C25AEE10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Common.Net", "WJLThoughts.Common\WJLThoughts.Common.Net\WJLThoughts.Common.Net.csproj", "{D79E863A-540B-4B45-99B6-09ACB5151674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WJLThoughts.Common.Net", "WJLThoughts.Common\WJLThoughts.Common.Net\WJLThoughts.Common.Net.csproj", "{D79E863A-540B-4B45-99B6-09ACB5151674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WJLThoughts.Algorithms", "WJLThoughts.Algorithms", "{DCF93B84-1FA8-4ED7-9E9E-4B22BACEBFF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CV", "CV", "{A7283C1A-DE12-41E1-A780-43232E76CAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLP", "NLP", "{62CEA2CC-438B-4E48-A2A4-29102A7AA8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WJLThoughts.Algorithms.CV.YOLO", "WJLThoughts.Algorithms\CV\WJLThoughts.Algorithms.CV.YOLO\WJLThoughts.Algorithms.CV.YOLO.csproj", "{55AC36E5-9F97-4772-8447-85685B8DAD91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +121,10 @@ Global
 		{D79E863A-540B-4B45-99B6-09ACB5151674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79E863A-540B-4B45-99B6-09ACB5151674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79E863A-540B-4B45-99B6-09ACB5151674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AC36E5-9F97-4772-8447-85685B8DAD91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +141,9 @@ Global
 		{CDE61D8A-2126-4F21-9A37-A267661B8010} = {03FB7F3C-81FA-4E16-BC3D-8F4A881D0C18}
 		{0958D0ED-49AA-4623-9A4C-95F5C25AEE10} = {03FB7F3C-81FA-4E16-BC3D-8F4A881D0C18}
 		{D79E863A-540B-4B45-99B6-09ACB5151674} = {E0DF8E3F-A35B-4981-A282-DD2D389BD3FE}
+		{A7283C1A-DE12-41E1-A780-43232E76CAF6} = {DCF93B84-1FA8-4ED7-9E9E-4B22BACEBFF5}
+		{62CEA2CC-438B-4E48-A2A4-29102A7AA8FD} = {DCF93B84-1FA8-4ED7-9E9E-4B22BACEBFF5}
+		{55AC36E5-9F97-4772-8447-85685B8DAD91} = {A7283C1A-DE12-41E1-A780-43232E76CAF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71FB6F05-6151-47F6-9CCD-7687AFAAD5F0}
